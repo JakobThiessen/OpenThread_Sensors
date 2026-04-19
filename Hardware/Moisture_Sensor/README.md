@@ -139,4 +139,3 @@ Das Signal ist stark asymmetrisch (sehr kurze Low-Pulse). Der ESP32-H2 sollte di
 
 ## Lizenz
 
-Dieses Projekt ist Teil des **OpenThread Sensors**-Projekts.
