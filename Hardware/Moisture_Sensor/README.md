@@ -1,4 +1,4 @@
-# <img src="Moisture%20Sensor.png" alt="Moisture Sensor" width="24"> Moisture Sensor (OpenThread)
+# Moisture Sensor (OpenThread) <img src="Moisture%20Sensor.png" alt="Moisture Sensor" width="48"> 
 
 > Kapazitiver Bodenfeuchtesensor mit ESP32-H2 und Matter over Thread  
 > **Version 1.0 — April 2026**
@@ -99,7 +99,7 @@ $$D = \frac{R_A + R_B}{R_A + 2 \cdot R_B} = \frac{331{,}6\,\text{k}}{333{,}2\,\t
 
 Das Signal ist stark asymmetrisch (sehr kurze Low-Pulse). Der ESP32-H2 sollte die **Periodendauer** oder **Frequenz** messen (z. B. per Timer-Capture), nicht das Tastverhältnis.
 
-### Bewertung — Kann das Design funktionieren?
+### Bewertung (KI) — Kann das Design funktionieren?
 
 **Grundsätzlich: Ja**, mit folgenden Anmerkungen:
 
