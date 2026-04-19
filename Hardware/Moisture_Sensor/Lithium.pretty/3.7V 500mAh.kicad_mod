@@ -1,0 +1,103 @@
+(footprint "3.7V 500mAh"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.254 -9.12 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "360155a1-f20b-4089-b909-d625c9dfc915")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "3.7V 500mAh"
+		(at 0.254 -7.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "41d9c5c6-30ce-4fbe-8959-375aaeb81ab0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "95d7bd95-d288-4d59-bb9e-c18c776e2999")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "298bda12-6057-4780-9f48-de24f8c111fb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_rect
+		(start -14.986 -12.47)
+		(end 20.828 12.422)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "0a8dacfd-ccba-4725-82c2-4161dc6501ac")
+	)
+	(fp_rect
+		(start 20.828 -12.446)
+		(end 21.844 -5.842)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "f257374b-d8c1-45c7-b6b9-06f0d3eb7173")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0.254 -6.12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "3f2f2374-915c-4c79-a4e4-d18a4c632a9c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KIPRJMOD}/Lithium.pretty/3.7v li-ion 500mah Battery.step"
+		(offset
+			(xyz 3.5 0 -2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
