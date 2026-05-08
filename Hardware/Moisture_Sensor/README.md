@@ -3,6 +3,14 @@
 > Kapazitiver Bodenfeuchtesensor mit ESP32-H2 und Matter over Thread  
 > **Version 1.0 — April 2026**
 
+## Fehler
+
+Fehler im Schlatplan!!!
+R7, Q1 und Q2 nicht bestücken.
+Verbindung von Q1/pin1 zu Q2/Pin2 wie
+eingezeichnet herstellen und mit GPIO
+ein und ausschalten.
+
 ## Übersicht
 
 Batteriebetriebener kapazitiver Bodenfeuchtesensor für den Einsatz im Smart Home. Die Kommunikation erfolgt drahtlos über **Matter over Thread** mittels eines **ESP32-H2 Supermini** Moduls.
