@@ -741,7 +741,7 @@
 		(path "/4b0f4925-d3c4-47c9-93b2-d7ecb166e2d6")
 		(sheetname "/")
 		(sheetfile "Moisture Sensor.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole exclude_from_bom)
 		(fp_line
 			(start -1.38 6.46)
 			(end 1.38 6.46)
@@ -1813,7 +1813,7 @@
 				)
 			)
 		)
-		(property "Value" "10k"
+		(property "Value" "1M"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "d80843c1-e333-409b-92f7-62befd5a6627")
@@ -2681,7 +2681,7 @@
 		(path "/7536ec20-0080-459d-ad48-3e050d6f52dd")
 		(sheetname "/")
 		(sheetfile "Moisture Sensor.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start -1.38 -1.38)
 			(end 0 -1.38)
@@ -4048,7 +4048,7 @@
 		(path "/e19a81f7-4831-4372-91f5-0e27ebc7f701")
 		(sheetname "/")
 		(sheetfile "Moisture Sensor.kicad_sch")
-		(attr through_hole exclude_from_bom dnp)
+		(attr through_hole)
 		(fp_line
 			(start -1.38 3.92)
 			(end 1.38 3.92)
@@ -4592,7 +4592,7 @@
 			(uuid "3485eac3-05fd-4121-9187-4e39c163aaae")
 			(effects
 				(font
-					(size 0.5 0.5)
+					(size 1 1)
 					(thickness 0.1)
 					(bold yes)
 				)
@@ -4828,7 +4828,7 @@
 				)
 			)
 		)
-		(property "Value" "330k"
+		(property "Value" "330"
 			(at 0 1.43 0)
 			(layer "F.Fab")
 			(uuid "f49552cb-3bcb-4ef5-ab5f-d15c66e8cb20")
@@ -6032,113 +6032,6 @@
 			)
 			(rotate
 				(xyz 0 0 0)
-			)
-		)
-	)
-	(footprint "Lithium:3.7V 500mAh"
-		(layer "B.Cu")
-		(uuid "9f7d4abb-ae75-43cf-8f59-e1726701a6a6")
-		(at 170.688 87.63 180)
-		(property "Reference" "REF**"
-			(at 0.254 9.12 0)
-			(unlocked yes)
-			(layer "B.SilkS")
-			(uuid "80c5c7aa-6b2a-4c0d-bbc5-b1e950148ec7")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.1)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Value" "3.7V 500mAh"
-			(at 0.254 7.62 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "e7203f1e-10ac-48ae-849f-b54b86709408")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Datasheet" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "3a84616e-1a0c-409c-a03d-827e9c420901")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(property "Description" ""
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(hide yes)
-			(uuid "68079369-c2f8-4775-b15a-397e17f36028")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(attr smd)
-		(fp_rect
-			(start 20.828 12.446)
-			(end 21.844 5.842)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "B.SilkS")
-			(uuid "344dd506-ad4d-4bb6-a874-7102f12ceab5")
-		)
-		(fp_rect
-			(start -14.986 12.47)
-			(end 20.828 -12.422)
-			(stroke
-				(width 0.1)
-				(type default)
-			)
-			(fill no)
-			(layer "B.SilkS")
-			(uuid "5d8cfc86-d454-4332-b293-8598f1a35372")
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0.254 6.12 0)
-			(unlocked yes)
-			(layer "B.Fab")
-			(uuid "a8751561-dc73-494b-9d80-587624022d50")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-				(justify mirror)
-			)
-		)
-		(embedded_fonts no)
-		(model "${KIPRJMOD}/Lithium.pretty/3.7v li-ion 500mah Battery.step"
-			(offset
-				(xyz 3.5 0 -2)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -90 -0 -90)
 			)
 		)
 	)
@@ -8258,46 +8151,6 @@
 		)
 	)
 	(zone
-		(net 32)
-		(net_name "IO4")
-		(layer "F.Cu")
-		(uuid "b3f25b0a-65cf-47a5-8765-4e94e163e3f2")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30002)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 169.264 76.974169) (xy 169.064 76.974169) (xy 168.531075 78.04308) (xy 169.154677 79.910758)
-				(xy 169.778279 78.04308)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 169.264918 76.977596) (xy 169.267188 76.980796) (xy 169.776194 78.038747) (xy 169.776221 78.038802)
-				(xy 169.776776 78.04758) (xy 169.165775 79.877519) (xy 169.159904 79.884281) (xy 169.150972 79.884912)
-				(xy 169.14421 79.879041) (xy 169.143579 79.877519) (xy 168.532608 78.047672) (xy 168.533235 78.038747)
-				(xy 169.060769 76.980649) (xy 169.067527 76.974774) (xy 169.07124 76.974169) (xy 169.256645 76.974169)
-			)
-		)
-	)
-	(zone
 		(net 29)
 		(net_name "Net-(U1-IO11)")
 		(layer "F.Cu")
@@ -8334,46 +8187,6 @@
 				(xy 169.796796 94.787929) (xy 169.187257 95.245292) (xy 169.178583 95.247517) (xy 169.177211 95.247236)
 				(xy 168.458837 95.055007) (xy 168.45173 95.049558) (xy 168.450559 95.040681) (xy 168.450895 95.039626)
 				(xy 168.873104 93.904514) (xy 168.875795 93.900322) (xy 169.075981 93.700136) (xy 169.084253 93.69671)
-			)
-		)
-	)
-	(zone
-		(net 31)
-		(net_name "IO5")
-		(layer "F.Cu")
-		(uuid "ffe629d6-c5b9-40f2-80b6-19f55de2bc40")
-		(name "$teardrop_padvia$")
-		(hatch none 0.1)
-		(priority 30001)
-		(attr
-			(teardrop
-				(type padvia)
-			)
-		)
-		(connect_pads yes
-			(clearance 0)
-		)
-		(min_thickness 0.0254)
-		(filled_areas_thickness no)
-		(fill yes
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 1)
-			(island_area_min 10)
-		)
-		(polygon
-			(pts
-				(xy 166.724 76.974169) (xy 166.524 76.974169) (xy 165.991075 78.04308) (xy 166.614677 79.910758)
-				(xy 167.238279 78.04308)
-			)
-		)
-		(filled_polygon
-			(layer "F.Cu")
-			(pts
-				(xy 166.724918 76.977596) (xy 166.727188 76.980796) (xy 167.236194 78.038747) (xy 167.236221 78.038802)
-				(xy 167.236776 78.04758) (xy 166.625775 79.877519) (xy 166.619904 79.884281) (xy 166.610972 79.884912)
-				(xy 166.60421 79.879041) (xy 166.603579 79.877519) (xy 165.992608 78.047672) (xy 165.993235 78.038747)
-				(xy 166.520769 76.980649) (xy 166.527527 76.974774) (xy 166.53124 76.974169) (xy 166.716645 76.974169)
 			)
 		)
 	)
